@@ -46,12 +46,55 @@ From the GitHub repository, go to "Settings" and then to the "Collaborators" sec
 
 5. Install the necessary dependencies:
 
-´´´pip install -r requirements.txt´´´ to have the same version of the technologies used
+* init to create the configuration file
+´´´npm init ´´´
+
+* install express
+´´´npm install express´´´
+
+* install nodemon 
+´´´npm install nodemon --develop´´´
+
+* install body-parse
+´´´npm install body-parse´´´
+
+* install dotenv
+´´´npm install dotenv´´´
+
+* install ejs
+´´´npm install ejs´´´
+
+* install mongoose
+´´´npm install mongoose´´´
+
+
+6. create a mongodb account if you don't have one
+
+* create a server by entering database and then create.
+
+* Choose the free version that is in shared
+
+* Select the server you want to use
+
+* Select the server closest to your country
+
+* Press create cluster
+
+* press connect
+
+* press MongoDB for VS Code
+
+* Copy the route that is in option three
+
+* Create file . env
+
+* Write the MONGO_DB_URI = "copy mongo link"
 
 
 ## Use from web
 
-1. Launch the app:
+1. 
+Launch the app:
 '''
 node index.js
 '''
