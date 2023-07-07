@@ -11,59 +11,78 @@ This project allows you to create a list with the pending activities to be done 
 - Create list of activity
 - Delete activity
 
-## Tecnologías utilizadas
+## Used technology
 
-- Node
-- JavaScrip
+- Do not give
+- JavaScript
 - Express
 - ejs
 - css
+- dotenv
+- mongoose
 
-## Instalation
+## Installation
 
-1. Clona este repositorio en tu máquina local:
+1. Clone this repository to your local machine:
 
 git clone git@github.com:John9135/todo-list.git
 
 
-2. Navega al directorio del proyecto:
+2. Navigate to the project directory:
 
-cd todo list
+cd all set
 
-3. Tu o uno de tus companeros debe cambiar el origen del repositorio 
+3. You or one of your colleagues must change the origin of the repository
 
 git remote -v
 
 git remote remove origin
 
-git remote add origin <nueva_url_del_repositorio>
+git remote add origin <new_repository_url>
 
-4. Ahora, tus compañeros deben clonar tu repositorio y tú debes darles permiso para editarlo
+4. Now, your colleagues must clone your repository and you must give them permission to edit it
 
-Desde el repositorio en GitHub, ve a "Settings" y luego a la sección de "Collaborators" para agregarlos. Esto tiene como objetivo permitirles realizar cambios. No te preocupes, realizaremos este proceso en clase."
+From the GitHub repository, go to "Settings" and then to the "Collaborators" section to add them. This is intended to allow them to make changes. Don't worry, we'll go through this process in class."
 
-5. Instala las dependencias necesarias:
+5. Install the necessary dependencies:
 
-pip install -r requirements.txt
+´´´pip install -r requirements.txt´´´ to have the same version of the technologies used
 
 
-## Uso
+## Use from web
 
-1. Inicia la aplicación:
-
+1. Launch the app:
+'''
 node index.js
+'''
 
-
-2. Accede a la documentación de la API en tu navegador:
+2. Access the API documentation in your browser:
 
 localhost:3000
 
 
-3. Prueba las agregar y eliminar.
+3. Try adding and removing.
+
+## Use from postman
+
+1. Launch the app:
+'''
+node index.js
+'''
+
+2. Access postman
+* create a new request
+* change it to post type
+* Enter the following path:´´´localhost:3000/api/todo/create´´´
+* Write the following command in the Body:
+´´´{
+     "todoValue": "todo"
+}´´´
 
 
-## Contacto
 
-Si tienes alguna pregunta o sugerencia o quieres el workbook para desarrollar este proyecto, no dudes en contactarme en (palacioalexander5@gmail.com).
+## Contact
+
+If you have any questions or suggestions or you want the workbook to develop this project, do not hesitate to contact me at (palacioalexander5@gmail.com).
 
 
